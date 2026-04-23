@@ -1,9 +1,3 @@
-Aqui está o seu README refinado. Foquei em transformar as tags `<figure>` e `<img>` para a sintaxe nativa do Markdown, o que torna o arquivo mais leve e compatível com diferentes visualizadores de Git (como VS Code, GitHub e GitLab).
-
-Também aproveitei para ajustar levemente a hierarquia de cabeçalhos e a formatação das tabelas para garantir uma leitura mais fluida.
-
------
-
 # 🛡️ Laboratório de Segurança Ofensiva: Exploração do Metasploitable 2 & DVWA
 
 [](https://www.google.com/search?q=LICENSE)
