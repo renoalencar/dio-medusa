@@ -1,9 +1,9 @@
 # 🛡️ Laboratório de Segurança Ofensiva: Exploração do Metasploitable 2 & DVWA
 
-[](https://www.google.com/search?q=LICENSE)
-[](https://python.org)
-[](https://github.com)
-[](https://www.google.com/search?q=LICENSE)
+[![Educational Purpose](https://img.shields.io/badge/Purpose-Educational-blue)](LICENSE)
+[![Python 3.8+](https://img.shields.io/badge/Python-3.8%2B-green)](https://python.org)
+[![Security Research](https://img.shields.io/badge/Security-Research-red)](https://github.com)
+[![License](https://img.shields.io/badge/License-Educational%20Use%20Only-orange)](LICENSE)
 
 > **⚠️ AVISO LEGAL:** Todo o conteúdo deste repositório foi produzido exclusivamente em ambiente controlado e isolado, com fins educacionais. A execução de ataques sem autorização explícita é crime (Lei nº 12.737/2012 — Lei Carolina Dieckmann, e art. 154-A do Código Penal Brasileiro). **Nunca replique estas técnicas em sistemas reais sem permissão.**
 
