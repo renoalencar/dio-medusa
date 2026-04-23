@@ -43,6 +43,9 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+# WSL
+*.Identifier
+
 # Distribution / packaging
 .Python
 build/
