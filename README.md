@@ -158,7 +158,7 @@ PORT   STATE SERVICE VERSION
 ```
 
 *Figura 01. Fase de reconhecimento de serviços utilizando NMAP.*
-[Fase de reconhecimento de serviços utilizando NMAP](images/lab-sec-01-fase-reconhecimento.png)
+![Fase de reconhecimento de serviços utilizando NMAP](images/lab-sec-01-fase-reconhecimento.png)
 
 ### Fase 2: Executando o Ataque
 
@@ -173,7 +173,7 @@ ACCOUNT FOUND: [ftp] Host: 10.10.10.20 User: msfadmin Password: msfadmin [SUCCES
 ```
 
 *Figura 02. Fase de execução de ataque ao serviço FTP.*
-[Fase de execução de ataque ao serviço FTP.](images/lab-sec-02-ataque-ao-servico-ftp.png)
+![Fase de execução de ataque ao serviço FTP.](images/lab-sec-02-ataque-ao-servico-ftp.png)
 
 -----
 
@@ -188,7 +188,7 @@ O **DVWA (Damn Vulnerable Web Application)** simula um formulário de login web.
 Inspecione manualmente o formulário para identificar os campos `username` e `password`.
 
 *Figura 03. Inspeção de requisições via DevTools.*
-[Inspeção de requisições na página de login do DVWA](images/lab-sec-03-inspecionando-pagina-login-dvwa.png)
+![Inspeção de requisições na página de login do DVWA](images/lab-sec-03-inspecionando-pagina-login-dvwa.png)
 
 ### Fase 2: Executando com Medusa
 
@@ -204,7 +204,7 @@ medusa -h 10.10.10.20 \
 ```
 
 *Figura 04. Execução de ataque de força bruta via HTTP FORM.*
-[Execução de ataque de força bruta com Medusa no DVWA](images/lab-sec-04-ataque-ao-dvwa-com-medusa.png)
+![Execução de ataque de força bruta com Medusa no DVWA](images/lab-sec-04-ataque-ao-dvwa-com-medusa.png)
 
 -----
 
@@ -221,7 +221,7 @@ enum4linux -U 10.10.10.20 | grep "user:" | cut -d[ -f2 | cut -d] -f1 > smb_users
 ```
 
 *Figura 05. Exemplo de uso do ENUM4LINUX.*
-[Execução da ferramenta enum4linux para enumeração de SMB e serviços Windows](images/lab-sec-05-exemplo-de-uso-do-enum4linux.png)
+![Execução da ferramenta enum4linux para enumeração de SMB e serviços Windows](images/lab-sec-05-exemplo-de-uso-do-enum4linux.png)
 
 ### Fase 2: Execução do Spraying
 
@@ -230,7 +230,7 @@ medusa -h 10.10.10.20 -U smb_users.txt -P senhas_spray.txt -M smbnt -t 1 -v 4
 ```
 
 *Figura 08. Validação do sucesso no ataque ao serviço SMB.*
-[Sucesso e validação das credenciais obtidas no ataque ao serviço SMB com Medusa](images/lab-sec-08-ataque-ao-smb-com-medusa-pt02.png)
+![Sucesso e validação das credenciais obtidas no ataque ao serviço SMB com Medusa](images/lab-sec-08-ataque-ao-smb-com-medusa-pt02.png)
 
 -----
 
